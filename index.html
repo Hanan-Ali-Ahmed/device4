@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Devices</title>
+    <link rel="stylesheet" href="task5.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+  <body onload="test()">
+    <div class="parent">
+    <div class="parent-text">
+      <h2 class="left-text">We have</h2>
+      <h2 class="right-text">different devices</h2></div>
+    <ul class="list list1">
+         <img  class="pic-line1" src="imgs/phone3.jpg" alt="">
+      <li class="fir-line" price="2000" value="red">MEIZU</li>
+        <img  class="pic-line1" src="imgs/phone4.jpg" alt="">
+       <li class="fir-line" price="35000">PLUM</li>
+     <img  class="pic-line1" src="imgs/phone17.jpg" alt="">
+      <li class="fir-line" price="70000">TCL</li>
+     </ul>
+    <ul class="list list2">
+       <img  class="pic-line1" src="imgs/phone6.jpg" alt="">
+     <li class="sec-line" price="30000">NOKIA</li>
+      <img  class="pic-line1" src="imgs/phone8.jpg" alt="">
+      <li class="sec-line" price="3000">OPPO</li>
+      <img  class="pic-line1" src="imgs/phone9.jpg" alt="">
+     <li class="sec-line" price="80000">HTC</li>
+    </ul>
+    <ul class="list list3">
+       <img  class="pic-line1" src="imgs/phone11.jpg" alt="">
+     <li class="thi-line" price="80800">ABBLE</li>
+     <img  class="pic-line1" src="imgs/phone12.jpg" alt="">
+      <li class="thi-line" price="33000">ASUS</li>
+     <img  class="pic-line1" src="imgs/phone13.jpg" alt="">
+     <li class="thi-line" price="4000">CAT</li>
+    </ul>
+    <ul class="list list4">
+       <img  class="pic-line1" src="imgs/phone14.jpg" alt="">
+     <li class="for-line" price="4050">IPHON</li>
+       <img  class="pic-line1" src="imgs/phone18.jpg" alt="">
+      <li class="for-line" price="35000">SONY</li>
+     <img  class="pic-line1" src="imgs/phone16.jpg" alt="">
+     <li class="for-line" price="90000">BLU</li>
+    </ul>
+    <div id="content">  </div>
+    <button id="addToCart" style="display:none">Show Price</button>
+    <div id="output">   </div>
+    <button id="buy" style="display:none">Buy This Device</button>
+    <form   class="forme" style="display: inline-block;transform: scale(0);border:3px solid green;margin-left:931px;margin-top:-92px">
+    <input type="text" placeholder="Enter your name" required><br>
+    <input type="number" placeholder="Enter your phone" required><br>
+    <input type="number" placeholder="Enter the payment card" required><br>
+    <input type="text" placeholder="Enter Your place" required><br>
+    <input type="number" style="width:179px" placeholder="Device received date" required><br>
+    <button style="width:180px">Send Information</button>
+    </form>
+    <div id="result"> </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

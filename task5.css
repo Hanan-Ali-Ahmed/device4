@@ -1,0 +1,93 @@
+  .parent{
+    background: url(imgs/phone7.jpg) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+   position: relative;  }
+  .list li{
+      color: white}
+    .parent-text{
+     position: relative;}
+    .left-text , .right-text{
+      display: inline-block;
+      text-transform: capitalize;
+      color: white;
+      font-family: cursive;    }
+    .left-text{
+      position: absolute;
+      animation-name: move1;
+      animation-duration: 3s;
+      animation-fill-mode: forwards;
+      animation-delay: 0.9s;}
+    @keyframes move1 {
+      0%{left:0px;}
+      100%{left:486px;}}
+    .right-text{
+      position: absolute;
+      float: right;
+      animation-name: move2;
+       animation-duration: 3s;
+       animation-fill-mode:both;
+       animation-delay: 0.9s;}
+    @keyframes move2 {
+      0%{left:1042px;}
+      100%{left:630px;}}
+  .list1{
+    list-style: none;
+    padding:100px 4px;
+    font-size: 25px;
+    font-family:cursive;}
+  .list1 li{
+    padding-left:128px;}
+  .fir-line , .fir-line1{
+    float: left;}
+  .list2{
+    list-style: none;
+    margin:20px -34px;
+    font-size: 25px;
+    font-family:cursive;}
+  .list2 li{
+    padding-left: 128px;}
+  .sec-line{
+    float: left;}
+  .list3{
+    list-style: none;
+   margin:143px -32px;
+    font-size: 25px;
+    font-family:cursive;}
+  .list3 li{
+    padding-left: 128px;}
+  .thi-line{
+    float: left;}
+  .list4{
+    list-style: none;
+   margin:270px -32px;
+    font-size: 25px;
+    font-family:cursive;}
+  .list4 li{
+    padding-left: 128px;}
+  .for-line{
+    float: left;}
+   .pic-line1{
+    position: absolute;
+    width:45px;
+    border-Radius:50%;
+    margin-top: 6px;
+    margin-left:71px;}
+  .pic-line2{
+    position: absolute;
+    width:45px;
+    border-Radius:50%;
+    margin-top: 66px;
+    margin-left:134px;}
+  #result{
+    position: absolute;
+    border-radius: 30px 30px;
+    margin-top: -149px;
+    margin-left: 899px;
+    width: 245px;
+    height: 38px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    text-align: center;}
+  
